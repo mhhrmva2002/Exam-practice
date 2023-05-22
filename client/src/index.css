@@ -1,0 +1,23 @@
+
+.one{
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.568)), url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one-div{
+  color: white;
+  width: 52%;
+  font-size: 20px;
+position: absolute;
+}
+.get-started{
+  padding: 15px 25px;
+  background-color: rgb(255, 196, 1);
+  color: white;
+}
+.get-started:hover{
+  background-color: rgba(255, 196, 1, 0);
+}
