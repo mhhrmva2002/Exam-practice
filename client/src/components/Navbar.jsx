@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
         
    <Box  style={{}} sx={{ flexGrow: 1 }}>
-      <AppBar style={{backgroundColor:"black",padding:"0 10%"}} position="static">
+      <AppBar className='appbar' position="static">
         <Toolbar>
           <IconButton
             size="large"

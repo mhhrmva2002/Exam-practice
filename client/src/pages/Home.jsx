@@ -1,6 +1,7 @@
 import React from 'react'
 import '../index.css';
-
+import { Card } from 'antd';
+const { Meta } = Card;
 const Home = () => {
   return (
     <>
@@ -13,9 +14,44 @@ const Home = () => {
             </div>
         </section>
         <section>
-            <div>
+            <div className='Our-Offered'>
                 <h1>Our Offered Services</h1>
                 <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+            <div className='cards'>
+            <Card className="card"
+    hoverable
+    style={{
+      width: 300,
+    }}
+    cover={<img alt="example" src="https://preview.colorlib.com/theme/security/img/s1.jpg" />}
+  >
+    <Meta title="Basic & Common Repairs" description="
+Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
+" />
+  </Card>
+  <Card className="card"
+    hoverable
+    style={{
+      width: 300,
+    }}
+    cover={<img alt="example" src="https://preview.colorlib.com/theme/security/img/s2.jpg" />}
+  >
+    <Meta title="Brake Repairs & Services" description="
+Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
+" />
+  </Card>
+  <Card className="card"
+    hoverable
+    style={{
+      width: 300,
+    }}
+    cover={<img alt="example" src="https://preview.colorlib.com/theme/security/img/s3.jpg" />}
+  >
+    <Meta title="Preventive Maintenance" description="
+Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
+" />
+  </Card>
             </div>
         </section>
     </>

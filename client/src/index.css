@@ -1,4 +1,8 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .one{
   height: 90vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.568)), url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp);
@@ -15,9 +19,33 @@ position: absolute;
 }
 .get-started{
   padding: 15px 25px;
-  background-color: rgb(255, 196, 1);
+  background-color: #FAB700;
   color: white;
 }
 .get-started:hover{
   background-color: rgba(255, 196, 1, 0);
+}
+.appbar{
+  background-color: rgba(0, 0, 0, 0.592) !important;
+  position: fixed !important;
+  z-index: 100;
+  padding:0 10% ;
+}
+.Our-Offered{
+  width: 30%;
+  height: 150px;
+  margin: 50px auto !important;
+  text-align: center;
+  font-size: 20px;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 10%;
+}
+.card{
+  padding: 2%;
+}
+.card:hover{
+background-color: #FAB700;
 }
